@@ -1,71 +1,55 @@
-# Getting Started with Create React App
+# Assessment Test App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a README file that provides instructions on how to run the ReactJS application locally on your machine.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Before running the application, make sure you have the following software installed on your machine:
 
-### `yarn start`
+Node.js (version 10 or above)
+npm (Node Package Manager)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Follow the steps below to install and run the ReactJS application:
 
-### `yarn test`
+1. Clone the repository to your local machine using Git or download the source code as a ZIP file and extract it.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ### `git clone https://github.com/Jahanzaib9/assesment-test.git`
 
-### `yarn build`
+2. Open a terminal or command prompt and navigate to the project's root directory.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ### `cd your-repo`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install the project dependencies using npm.
+   ### `npm install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Running the Application
 
-### `yarn eject`
+Once the installation is complete, you can start the application by following these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. In the terminal or command prompt, navigate to the project's root directory if you're not already there.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Start the development server.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `npm start`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. The application should now be running locally on your machine. Open a web browser and visit the following URL:
 
-## Learn More
+### `http://localhost:3000`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You should see the ReactJS application running in the browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Building the Application
 
-### Code Splitting
+If you want to create a production-ready build of the application, you can use the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### `npm run build`
 
-### Analyzing the Bundle Size
+This command will create an optimized production build in the build directory. You can then deploy this build to a web server or any other hosting platform.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Conclusion
 
-### Making a Progressive Web App
+You have successfully installed and run the ReactJS application locally on your machine. Feel free to explore and modify the code to meet your requirements. If you encounter any issues or have any questions, please refer to the project's documentation or reach out to the project's maintainers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"#demo-Instaead" 
+[Click here for Live Demo](assesment-test.vercel.app/)
