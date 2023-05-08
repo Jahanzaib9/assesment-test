@@ -1,0 +1,83 @@
+.primary_div {
+  height: 100%;
+  position: relative;
+  z-index: 100;
+}
+.main_grid {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+  color: #ffffff;
+}
+
+.first_col h2 {
+  margin-top: 40px;
+  font-size: 50px !important;
+}
+
+.first_col p {
+  font-size: 12px;
+}
+
+.scroll-bar {
+  margin-top: 2.793296089385475vw;
+  /* background-color: black; */
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid black;
+  /* height: 17.83vw; */
+  width: 100%;
+  border-radius: 15px;
+  padding-bottom: 30px;
+}
+
+.parent-div {
+  color: white;
+  width: 55%;
+  margin-left: 40px;
+  display: flex;
+}
+
+.first-div {
+  border-radius: 15px;
+  padding: 5px 28px;
+  background: black;
+}
+
+.first-div span {
+  color: yellow;
+}
+
+.second-div {
+  border-radius: 15px;
+  padding: 5px 30px;
+  margin-left: 5px;
+}
+
+.second-div span {
+  color: #5691e9;
+}
+
+.final-comp {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+.final-comp Button {
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid-div {
+  display: grid;
+  text-align: end;
+  margin-right: 10px;
+}
+
+.grid-div span {
+  font-size: 12px;
+}

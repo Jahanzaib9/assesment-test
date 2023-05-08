@@ -1,0 +1,115 @@
+.parallax-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.parallax-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+#parallax-bg-1 {
+  background-image: url("../../Assets/mask_group.png");
+  z-index: 3;
+  background-size: 38.3vw;
+  background-position: 62.8vw 12.3vw;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+#parallax-bg-2 {
+  background-image: url("../../Assets/rocks_bg.png");
+  z-index: 2;
+  background-size: cover;
+  background-position: 0 -30%;
+  background-repeat: no-repeat;
+  width: 110%;
+  margin-left: -60px;
+}
+
+#parallax-bg-3 {
+  background-image: url("../../Assets/main_bg.png");
+  z-index: 1;
+  background-size: cover;
+  background-repeat: repeat;
+  width: 120%;
+  margin-left: -80px;
+}
+
+#comment-box {
+  background: linear-gradient(46.88deg, #fafafa 31.78%, #dbdbdb 95.17%);
+  position: relative;
+  display: flex;
+  padding: 4px;
+  color: white;
+  justify-content: center;
+  width: 11.17vw;
+  height: 8.37vw !important;
+  max-width: 28% !important;
+  text-align: center;
+  display: flex;
+  border-radius: 30px;
+  z-index: 2;
+  margin: 15.97vw 65.97vw;
+  transform: translateY(-40%) scale(0); /* added translateY */
+  transform-origin: bottom center;
+  transition: transform 0.6s ease-in-out;
+}
+
+#comment-box::after {
+  content: "";
+  background: linear-gradient(46.88deg, #fafafa 31.78%, #dbdbdb 95.17%);
+  position: absolute;
+  height: 7.68vw;
+  width: 6.98vw;
+  bottom: -2.44vw;
+  left: 52%;
+  clip-path: polygon(0 0, 56% 0, 50% 100%);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+#comment-box-rendered {
+  background: linear-gradient(46.88deg, #fafafa 31.78%, #dbdbdb 95.17%);
+  position: relative;
+  display: flex;
+  padding: 4px;
+  color: white;
+  justify-content: center;
+  width: 10.5vw;
+  height: 8vw !important;
+  text-align: center;
+  display: flex;
+  border-radius: 30px;
+  margin: 15.97vw 65.97vw;
+  transform-origin: bottom center;
+  transition: transform 1.6s ease-in-out;
+  transform: translateY(-90%) scale(1.2);
+  z-index: 2;
+}
+
+#comment-box-rendered::after {
+  content: "";
+  position: absolute;
+  height: 7.68vw;
+  width: 6.98vw;
+  bottom: -2.44vw;
+  left: 52%;
+  background: linear-gradient(46.88deg, #fafafa 31.78%, #dbdbdb 95.17%);
+  clip-path: polygon(0 0, 56% 0, 50% 100%);
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.comment_text {
+  color: black;
+  z-index: 15;
+  margin: 1.39vw 0.34vw;
+  font-size: 0.97vw;
+}
