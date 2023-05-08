@@ -52,4 +52,4 @@ This command will create an optimized production build in the build directory. Y
 
 You have successfully installed and run the ReactJS application locally on your machine. Feel free to explore and modify the code to meet your requirements. If you encounter any issues or have any questions, please refer to the project's documentation or reach out to the project's maintainers.
 
-[Click here for Live Demo](https://assesment-test.vercel.app/){:target="\_blank"}
+[Click here for Live Demo](https://assesment-test.vercel.app/)
